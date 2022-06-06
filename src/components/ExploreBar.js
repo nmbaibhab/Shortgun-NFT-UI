@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ExploreBar = () => {
   return (
@@ -46,67 +47,67 @@ const ExploreBar = () => {
           >
             <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-md font-medium">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-purple-700 rounded font-bold mx-8"
                   aria-current="page"
                 >
                   All Categories
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-gray-600 rounded font-bold mx-8 hover:text-gray-900"
                   aria-current="page"
                 >
                   Arts
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-gray-600 rounded font-bold mx-8 hover:text-gray-900"
                   aria-current="page"
                 >
                   Sports
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-gray-600 rounded font-bold mx-8 hover:text-gray-900"
                   aria-current="page"
                 >
                   Utilities
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-gray-600 rounded font-bold mx-8 hover:text-gray-900"
                   aria-current="page"
                 >
                   Collectibles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-gray-600 rounded font-bold mx-8 hover:text-gray-900"
                   aria-current="page"
                 >
                   Music
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   class="block text-gray-600 rounded font-bold mx-8 hover:text-gray-900"
                   aria-current="page"
                 >
                   Trading Cards
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
